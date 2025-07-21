@@ -1,0 +1,34 @@
+.feature-grid {
+  padding: 40px 20px;
+  background: #000;
+  color: white;
+}
+
+.feature-grid h2 {
+  text-align: left;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.feature-card {
+  background: #181818;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}

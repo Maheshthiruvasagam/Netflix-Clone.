@@ -1,0 +1,13 @@
+/* Footer always uses the same layout for all screen sizes */
+.footer {
+  background: #181818;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0 16px 0;
+  font-size: 1rem;
+  border-top: 1px solid #222;
+}
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
